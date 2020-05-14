@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ouyang.dao.CrawlerMapper">
+
+    <resultMap id="BaseResultMap" type="com.ouyang.model.CrawlerContent">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="title" jdbcType="VARCHAR" property="title" />
+        <result column="time" jdbcType="DATE" property="time" />
+        <result column="contextUrl" jdbcType="VARCHAR" property="contextUrl" />
+        <result column="content" jdbcType="VARCHAR" property="content" />
+        <result column="attchmentsUrl" jdbcType="VARCHAR" property="attchmentsUrl" />
+        <result column="description" jdbcType="VARCHAR" property="description" />
+        <result column="ower" jdbcType="VARCHAR" property="ower" />
+        <result column="createTime" jdbcType="DATE" property="createTime" />
+    </resultMap>
+
+    <select id="list" resultType="com.ouyang.model.CrawlerContent" parameterType="java.util.Map">
+        select * from crawler where time = #{time} order by time desc
+    </select>
+
+    <select id="count" resultType="int" parameterType="com.ouyang.dto.CrawlerContentDto">
+        select count(*) from crawler where 1=1
+        <if test="id != null and id != ''">
+            and id = #{id}
+        </if>
+        <if test="title != null and title != ''">
+            and title like concat(concat("%",#{title}),"%")
+        </if>
+        <if test="startTime != null and endTime != null">
+            and time between #{startTime} and #{endTime}
+        </if>
+        <if test="ower != null and ower != ''">
+            and ower = #{ower}
+        </if>
+    </select>
+
+    <select id="getCrawlerInfoByContexturl" resultType="com.ouyang.model.CrawlerContent" parameterType="java.util.Map">
+        select * from crawler where contextUrl = #{contextUrl}# order by time desc
+    </select>
+
+    <insert id="create" parameterType="com.ouyang.model.CrawlerContent">
+        insert into crawler
+        (title,time,contextUrl,content,attchmentsUrl,description,ower,createTime)
+        values
+        (#{title},#{time},#{contextUrl},#{content},#{attchmentsUrl},#{description},#{ower},#{createTime})
+    </insert>
+
+    <update id="updateByUrl" parameterType="com.ouyang.model.CrawlerContent">
+        update crawler set title = #{title},time=#{time},content=#{content},
+        attchmentsUrl=#{attchmentsUrl},description=#{description},ower=#{ower},createTime=#{createTime}
+        where contextUrl = #{contextUrl}
+    </update>
+
+    <select id="searchInfoPageByParam" resultMap="BaseResultMap" parameterType="com.ouyang.dto.CrawlerContentDto">
+        select * from crawler where 1=1
+        <if test="id != null and id != ''">
+            and id = #{id}
+        </if>
+        <if test="title != null and title != ''">
+            and title like concat(concat("%",#{title}),"%")
+        </if>
+        <if test="time != null and time != ''">
+            and time = #{time}
+        </if>
+        <if test="contextUrl != null and contextUrl != ''">
+            and contextUrl = #{contextUrl}
+        </if>
+        <if test="description != null and description != ''">
+            and description = #{description}
+        </if>
+        <if test="ower != null and ower != ''">
+            and ower = #{ower}
+        </if>
+        <if test="createTime != null and createTime != ''">
+            and createTime = #{createTime}
+        </if>
+        <if test="startTime != null and endTime != null">
+            and time between #{startTime} and #{endTime}
+        </if>
+        order by time desc
+        limit #{offset}, #{size}
+    </select>
+
+    <select id="searchInfoByParam" resultMap="BaseResultMap" parameterType="com.ouyang.dto.CrawlerContentDto">
+        select * from crawler where 1=1
+        <if test="id != null and id != ''">
+            and id = #{id}
+        </if>
+        <if test="title != null and title != ''">
+            and title like concat(concat("%",#{title}),"%")
+        </if>
+        <if test="time != null">
+            and time = #{time}
+        </if>
+        <if test="contextUrl != null and contextUrl != ''">
+            and contextUrl = #{contextUrl}
+        </if>
+        <if test="description != null and description != ''">
+            and description = #{description}
+        </if>
+        <if test="ower != null and ower != ''">
+            and ower = #{ower}
+        </if>
+        <if test="createTime != null and createTime != ''">
+            and createTime = #{createTime}
+        </if>
+        <if test="startTime != null and endTime != null">
+            and time between #{startTime} and #{endTime}
+        </if>
+        order by time desc
+    </select>
+
+    <select id="getCrawlerInfoById" resultType="com.ouyang.model.CrawlerContent" parameterType="java.util.Map">
+        select * from crawler where id = #{id}
+    </select>
+
+</mapper>

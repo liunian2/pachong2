@@ -1,0 +1,32 @@
+GET http://www.baidu.com
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-05-11T025536.200.html
+
+###
+
+GET http://www.airchina.com.cn/http://www.airchina.com.cn/cn/contact_us/cgpt/cgxmgg/05/139267.shtml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-05-11T025436.404.html
+
+###
+
+POST http://www.airchina.com.cn/http://www.airchina.com.cn/cn/contact_us/cgpt/cgxmgg/05/139267.shtml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-05-11T025431.404.html
+
+###
+
+POST http://www.airchina.com.cn/cn/contact_us/cgpt/cgxmgg/05/139267.shtml
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-05-11T025412.404.html
+
+###
+
