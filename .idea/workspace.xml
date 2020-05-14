@@ -2,169 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba5939d-a642-4285-8040-82b29de1f0fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/75a180d1-18af-4c43-9651-7ab8cca7bd36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-05-11T025412.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-05-11T025431.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-05-11T025436.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2020-05-11T025536.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pachong2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seimic.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/SpringbootStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/annotations/DoLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/controller/ViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/BasicWithScheduler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/DefaultRedisQueueEG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/DynamicUserAgent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/IntercepterDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/MutiPageNewsCrawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/SeimiAgentDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/SelfConfigRedisQueueEG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/StoreInFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseBeanResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseCookie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseDelay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseDynamicProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/dao/CrawlerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/dto/CrawlerContentDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/dto/PagenationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/interceptors/DemoInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/main/Boot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/main/StartWorkers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/main/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/BlogContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicBasicArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicBasicType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicChapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicErrorContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/model/CrawlerContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/queues/MySelfRedisQueueImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/schedule/ScheduleTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/service/CrawlerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/service/impl/CrawlerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/spring/SpringUntils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/util/Http.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/util/HttpUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ouyang/util/UUIDUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/CrawlerMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155255.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155255.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155319.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155319.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155319.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155319.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155320.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155320.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155321.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155344.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155344.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155344.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155345.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155345.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155346.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155408.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155408.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155409.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155431.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155431.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155431.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155432.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155432.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155455.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155455.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155456.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155456.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155457.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155517.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155518.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/20200513155519.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/attachment/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/loading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/image/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery-1.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/jquery/jquery-ui-1.10.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ee.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.rs-latin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.rs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.sw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.ua.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/locales/bootstrap-datetimepicker.zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/view/view.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/less/datetimepicker.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -517,7 +355,7 @@
     <option name="jreName" value="1.8" />
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1260" />
@@ -590,7 +428,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://F:/IDEA/repository/cn/wanghaomiao/SeimiCrawler/1.3.5/SeimiCrawler-1.3.5.jar!/cn/wanghaomiao/seimi/core/SeimiProcessor.class&#10;JDWalker&#9;PSI&#9;JAVA://com.ouyang.crawlers.JDWalker&#10;OkHttpClientBuilderBox&#9;PSI&#9;JAVA://cn.wanghaomiao.seimi.http.okhttp.OkHttpClientBuilderBox&#10;SeimiAgentDemo&#9;PSI&#9;JAVA://com.ouyang.crawlers.SeimiAgentDemo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589439834469" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589440802692" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -836,12 +674,12 @@
       <workItem from="1589332233958" duration="16982000" />
       <workItem from="1589416574921" duration="946000" />
       <workItem from="1589419276283" duration="5844000" />
-      <workItem from="1589433395515" duration="5015000" />
+      <workItem from="1589433395515" duration="5938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="378880000" />
+    <option name="totallyTimeSpent" value="379803000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -854,9 +692,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.25323623" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.25323623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -874,7 +711,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3317757" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6962617" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50161815" side_tool="true" weight="0.29393467" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49838188" weight="0.29393467" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32970452" />
