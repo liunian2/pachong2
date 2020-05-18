@@ -1,40 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bba5939d-a642-4285-8040-82b29de1f0fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/annotations/DoLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/Basic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/BasicWithScheduler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/DefaultRedisQueueEG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/DynamicUserAgent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/IntercepterDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/MutiPageNewsCrawler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/SelfConfigRedisQueueEG.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/StoreInFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseBeanResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseCookie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseDelay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseDynamicProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/UseProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/interceptors/DemoInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/main/StartWorkers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/main/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/model/BlogContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicBasic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicBasicArea.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicBasicType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicChapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/model/ComicErrorContent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ouyang/queues/MySelfRedisQueueImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readme.md" beforeDir="false" />
-    </list>
+    <list default="true" id="bba5939d-a642-4285-8040-82b29de1f0fb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -217,11 +184,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/SeimiAgentDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="194" column="42" lean-forward="true" selection-start-line="194" selection-start-column="42" selection-end-line="194" selection-end-column="42" />
+            <state relative-caret-position="105">
+              <caret line="191" column="17" lean-forward="true" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,12 +196,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="350">
-                <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <first_editor relative-caret-position="-300">
+                <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -300,6 +267,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -515,7 +485,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://F:/IDEA/repository/cn/wanghaomiao/SeimiCrawler/1.3.5/SeimiCrawler-1.3.5.jar!/cn/wanghaomiao/seimi/core/SeimiProcessor.class&#10;JDWalker&#9;PSI&#9;JAVA://com.ouyang.crawlers.JDWalker&#10;OkHttpClientBuilderBox&#9;PSI&#9;JAVA://cn.wanghaomiao.seimi.http.okhttp.OkHttpClientBuilderBox&#10;SeimiAgentDemo&#9;PSI&#9;JAVA://com.ouyang.crawlers.SeimiAgentDemo" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589763519833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589764843506" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="D:/SVN/svn/bin/TortoiseProc.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -765,12 +735,12 @@
       <workItem from="1589433395515" duration="7239000" />
       <workItem from="1589446205206" duration="729000" />
       <workItem from="1589503202205" duration="9868000" />
-      <workItem from="1589762212751" duration="660000" />
+      <workItem from="1589762212751" duration="1644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="392361000" />
+    <option name="totallyTimeSpent" value="393345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,7 +754,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.26132685" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992224" visible="true" weight="0.26132685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -802,7 +772,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.26791278" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44548288" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50161815" side_tool="true" weight="0.29393467" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49838188" weight="0.29283488" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32970452" />
@@ -1049,21 +1019,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ouyang/queues/MySelfRedisQueueImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ouyang/crawlers/SeimiAgentDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="194" column="42" lean-forward="true" selection-start-line="194" selection-start-column="42" selection-end-line="194" selection-end-column="42" />
+        <state relative-caret-position="105">
+          <caret line="191" column="17" lean-forward="true" selection-start-line="191" selection-start-column="17" selection-end-line="191" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="350">
-            <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1088,6 +1048,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-300">
+            <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

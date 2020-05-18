@@ -26,4 +26,5 @@ CREATE TABLE crawler(
     description VARCHAR(2550),
     ower VARCHAR(255),
     createTime date 
+    )
 ```
