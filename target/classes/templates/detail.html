@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="../bootstrap/css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+	<style>
+		body{
+			padding-top: 30px;
+		}
+	</style>
+</head>
+
+<body>
+<div class="container-fluid main">
+    <div class="row">
+        <div style="padding-top: 10px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <a class="btn btn-small" href="javascript:history.go(-1);"><i class="icon-arrow-left"></i> 返回</a>
+        </div>
+        <div id="detailInfo" style="padding-top: 10px;margin-left: 10px;padding-bottom: 50px" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            
+        </div>
+    </div>
+</div>
+<span id="detailId" style="display: none" th:text="${id}"></span>
+<script type="text/javascript" src="../jquery/jquery-1.8.3.min.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        detailInfoByid();
+    });
+    function detailInfoByid(){
+        var id = $("#detailId").html();
+        $.ajax({
+            url:'detailById',
+            data:{'id':id},
+            type:'GET',
+            dataType:'json',
+            success:function(data){
+                var crawlers = data.crawlerList;
+                var headPath = data.filePath;
+                $("#detailInfo").html("");
+                var detailInfo = '';
+                if(crawlers.length > 0) {
+                    for (var i = 0; i <= crawlers.length - 1; i++) {
+                        var crawler = crawlers[i];
+                        detailInfo += '<div style="padding-bottom: 10px"><h3>'+crawler.title+'</h3><span>时间：'+ crawler.time +'</span></div>';
+                        var contentStr = crawler.content;
+                        if(contentStr != '' && contentStr != null){
+                            var contentArr = contentStr.split("&&");
+                            if(contentArr.length > 0){
+                                for(var j=0; j<=contentArr.length-1; j++){
+                                    detailInfo += '<div><span>'+contentArr[j]+'</span></div>';
+                                }
+                            }else{
+                                detailInfo += '<div><span>'+contentArr+'</span></div>';
+                            }
+                        }
+                        var attchments = crawler.attchmentsUrl;
+                        if(attchments != null && attchments != ""){
+                            var attachmentMaps = attchments.split("&&");
+                            if(attachmentMaps.length > 0){
+                                detailInfo += '<div><span>附件：</span></div>';
+                                for(var k=0; k<=attachmentMaps.length-1; k++){
+                                    var keyAndVal = attachmentMaps[k];
+                                    if(keyAndVal != null && keyAndVal != ""){
+                                        var keyAndValArr = keyAndVal.split("&");
+                                        var attachUrl = keyAndValArr[0];
+                                        var attachTitle = keyAndValArr[1];
+                                        detailInfo += '<div><a href="../attachment/' + attachUrl +'">'+ attachTitle + '</a></div>';
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                $("#detailInfo").html(detailInfo);
+            },
+            error:function () {
+                alert("出错了");
+            }
+        });
+    }
+</script>
+</body>
+</html>
